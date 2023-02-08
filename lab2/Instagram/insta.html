@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS basics</title>
+        <title>Instagram</title>
+        <style>
+            body{
+                background-color: #ffffff;
+            }
+            .photo{
+                position: absolute;
+                width: 30%;
+                height: 75%;
+                margin-left: 250px;
+                /* margin-top: -10vh; */
+                top:100px;
+                font-family: Arial;
+            }
+            .fb{
+            width: 15px;
+            margin-left: 15px;
+            /* margin-top: 10vh; */
+            font-family: Arial;
+            }
+
+
+            /* /* footer{
+                margin-left: 200px;
+                margin-right: 100px;
+                display: flex;
+                justify-content: center;
+                background-color:white;
+                color:grey;
+            } */
+            .footer1{
+                position: relative;
+                width: 1200px;
+                /* background-color: #000000; */
+            }
+
+            .a{
+                top:150px;
+                position: relative;
+                display: inline;
+                width: 1000px;
+            }
+            .footer2 a{
+            color:rgb(144, 143, 143);
+            font-size: 12.5px;
+            padding-inline-end: 16.5px;
+            }
+            .line{
+            border: 1px solid rgb(255, 255, 255);
+            margin-bottom: 6px;
+            }
+            .lan{
+            display: inline-block;
+            }
+            li{
+                display: inline-block;
+            }
+            /* .meta{   
+                position: absolute;
+                place-content: center;
+            } */
+
+        /* form{
+        background-color: rgb(255, 255, 255);
+        width: 300px;
+        padding: 10px 5px 20px 5px;
+        position:absolute;
+        height: 270px;
+        margin: -10vh 800px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px -8px;
+        } */
+        .info{
+            background-color: #ffffff;
+            position: relative;
+            left: 250px;
+            width: 300px;
+            padding: 20px;
+            height: 385px;
+            margin: -5vh 100px;
+            margin-left:500px;
+            margin-top: 14vh;
+            border: 1px solid rgb(169, 166, 166);
+            text-align: center;
+        }
+        .info2{
+            background-color: #fffcfc;
+            position: relative;
+            left: 250px;
+            width: 330px;
+            padding: 10px 5px 10px 5px;
+            height: 50px;
+            /* margin: -5vh 100px; */
+            border-color: #000000;
+            border-width: 10px;
+            margin-left:500px;
+            margin-top: 30vh;
+            top:-195px;
+            border: 1px solid rgb(169, 166, 166);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        .info3{
+            background-color: #fffcfc;
+            position: relative;
+            left: 330px;
+            width: 330px;
+            padding: 10px 5px 10px 5px;
+            height: 50px;
+            border-color: #000000;
+            border-width: 10px;
+            margin-left:500px;
+            margin-top:0vh;
+            top:-195px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+            input[type='text'], input[type='password']{
+            display: block;
+            background-color:white;
+            margin:auto;
+            border: 2px solid rgb(210, 209, 209);
+            width: 200px;
+            padding:10px 40px;
+            border-radius: 5px;
+            text-align: center;
+            color:black;
+            font-family:Arial;
+            font-size: 15px;
+        }
+        .vhod{
+            border:none;
+            background-color:#287ff2;
+            color:white;
+            margin:auto;
+            width: 290px;
+            display: block;
+            border-radius: 5px;
+            padding: 10px 0;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+        .vhod:hover{
+            background-color: #1a009f;
+        }
+        .create_acc{
+            color:rgb(24, 116, 203);
+            font-weight: bold;
+            font-size: 17px;
+            font-family: serif;
+            font-weight: bold;
+        }
+
+
+
+
+        .vvv{
+            color:rgb(24, 116, 203);
+            font-weight: bold;
+            font-size: 13px;
+            position: relative;
+            top: -4px;
+        }
+        .forget{
+            color:rgb(24, 116, 203);
+            font-weight: bold;
+            font-size: 13px;
+            width: 100px;
+            top: 10px;
+        }
+        #hr1{
+            position: relative;
+            width: 100px;
+            left: -84px;
+            top: 25px;
+        }
+        #hr2{
+            position:relative;
+            width: 100px;
+            left: 85px;
+            top: -27px;
+            height: 0.1px;
+        }
+        #or{
+            position: relative;
+            display: grid;
+            place-content: center;
+            left: 0px;
+            top:0px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #8e8e8e;
+        }
+        .insta{
+            width: 200px;
+            height: 90px;
+        }
+        /* .mini_info{
+            top:50px;
+        } */
+        #a{ 
+            color: #8e8e8e;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 12px;
+        }
+        .footer1{
+            position: absolute;
+            display: inline;
+            width: 1400px;
+            height: 100px;
+            right: 70px;
+            text-align: center;
+            top: 40px;
+            margin: 10px;
+            color: #8e8e8e;
+            /* background-color: #000000; */
+        }
+        .list{
+            position: relative;
+            left: 300px;
+            top: 100px;
+            color: #8e8e8e;
+        }
+        #downapp{
+            height: 80px;
+            width: 400px;
+        }
+        #linktoAPP{
+            position: relative;
+            right: 110px;
+            top: -10px;
+        }
+        </style>
+        </head>
+        <body>
+            <!-- <form action=""> -->
+            <div class="info">
+                <img class = "insta" src  = "https://assets.stickpng.com/images/5a4e432a2da5ad73df7efe7a.png">
+                <div class="mini_info">
+                    <input type="text" placeholder="Электронный адрес или номер телефона"/> <br />
+                    <input type="password" placeholder="Пароль"/> <br />
+                    <button type="submit" class = "vhod" >Войти</button> <br>
+                    <hr id="hr1">
+                    <!-- <hr data-content="ИЛИ"> -->
+                    <p id="or">ИЛИ</p>
+                    <hr id="hr2">
+                        <img class="fb" src= "/Users/alina/Desktop/Web Dev/lab2/IMG_1478B45F5790-1.jpeg"  alt="fb">
+                        <button type="submit" class="vvv">Войти через Facebook</button>
+                    <a href=""  class="forget"> <br><br>Забыли пароль?</a> <br>
+                    </div>
+
+
+                </div>
+                <div class="info2">
+                    <p>У вас ещё нет аккаунта?<a class="create_acc" href="">Зарегистрироваться</a></p>
+                </div>
+                <div >
+                    <img class="photo" src= "/Users/alina/Desktop/Web Dev/lab2/img/6205DAA4-5A25-4EB4-B198-91F15A28A241.jpeg"  alt="instagram">
+                </div>
+                <div class="info3">
+                    <p>Установите приложение.<a class="ust"></p>
+                        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" id = "linktoAPP">
+                            <img src="/Users/alina/Desktop/Web Dev/lab2/appstore.jpeg" alt="" id = "downapp">
+
+                        </a>
+           
+            
+        <footer class="footer1">
+            <ul class="list">
+                <!-- <li class="lan"><a href=''>Русский</a></li> -->
+                <li><a id="a" href='https://about.meta.com/'>Meta</a></li>
+                <li><a id="a" href='https://about.instagram.com/'>Информация</a></li>
+                <li><a id="a" href='https://about.instagram.com/blog/'>Блог</a></li>
+                <li><a id="a" href='https://www.instagram.com/about/jobs/'>Вакансии</a></li>
+                <li><a id="a" href='https://help.instagram.com/'>Помощь</a></li>
+                <li><a id="a" href='https://developers.facebook.com/docs/instagram'>API</a></li>
+                <li><a id="a" href='https://www.instagram.com/legal/privacy/'>Конфиденциальность</a></li>
+                <li><a id="a" href='https://www.instagram.com/legal/terms/'>Условия</a></li>
+                <li><a id="a" href='https://www.instagram.com/directory/profiles/'>Популярные аккаунты</a></li>
+                <li><a id="a" href='https://www.instagram.com/explore/locations/'>Места</a></li>
+                <li><a id="a" href='https://www.instagram.com/web/lite/'>Instagram Lite</a></li>
+                <li><a id="a" href='https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fhelp%2Finstagram%2F261704639352628&e=AT0KcnAiMnIq9ptTFXYVWGZyjAqQ6SImVn6Evx5fKGL_FQYjMNul5R95Ejf87xNp9LLxxh8l3CWI22OBXksFSRYIGeJhnlbwGUdS9Vj5NHac-WxXvL2m5BD2284b098_c6NCrXIaimgkSx2BdPg0tCBhtlo'>Загрузка контактов и лица,не являющиеся пользователями</a></li>
+                <div class="line"></div>
+                <div class="footer2">
+                    <li class="lan"><a href=''>Русский</a></li>
+                    <li class="meta">Meta by linlifxee © 2023
+                </div>
+            </ul>
+        </footer>
+    </body>
+</html>
