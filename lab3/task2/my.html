@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <style>
+        body{
+            background-image: url("/Users/alina/Desktop/Web Dev/my_todo/123456789.png");
+        }
+        .top{
+            background-color:white;
+            height: 50px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            border-color: rgb(85, 85, 85);
+        }
+        .listinput{
+            position: relative;
+            left: 250px;
+            top:150px;
+            width: 600px;
+            height: 30px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            border-color: rgb(85, 85, 85);
+        }
+        ::placeholder{
+            position: relative;
+            left: 20px;
+        }
+        .add{
+            position: relative;
+            left: 270px;
+            top:150px;
+            width: 50px;
+            border-radius: 3px;
+            border: 0.8px solid;
+            height: 30px;
+            border-color: rgb(85, 85, 85);
+            background-color:rgb(243, 193, 230);
+            color: white;
+        }
+        .elem{
+            width: 800px;
+            position:relative;
+            font-size:20px;
+            top:-46px;
+            font-family: Verdana;
+            color:black;
+            left:20px;
+            max-width:750px;
+            word-wrap: break-word
+        }
+        .elemwith{
+            width: 800px;
+            position:relative;
+            font-size:20px;
+            top:-46px;
+            font-family: Verdana;
+            color:black;
+            left:20px;
+            max-width:750px;
+            word-wrap: break-word;
+            text-decoration: line-through;
+        }
+        .add:hover{
+            background-color:rgb(246, 99, 238);
+            cursor: pointer;
+        }
+        .list{
+            position: relative;
+            list-style: none;
+            width: 800px;
+            top:150px;
+        }
+        .box{
+            border-radius: 4px;
+            position: relative;
+            width: 800px;
+            left: 250px;
+            background-color:aliceblue;
+        }
+        .galochka{
+            position: relative;
+            left: 0px;
+            
+        }
+        .trash{
+            position: relative;
+            top: -30px;
+            transform: translateY(-50%);
+            width : 25px;
+            height : 25px;
+            position : relative;
+            left : 780px;
+            z-index: 1;
+            border-width:0;
+        }
+        .trash:hover{
+            cursor: pointer;
+        }
+        .palka{
+            position:relative;left:-20px;color:black
+        }
+        .yes{
+            text-decoration: line-through;
+        }
+        .no{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class = "top">
+        <h style = "position: relative;color: rgb(0, 0, 0);left: 100px;top:13px;font-family:sans-serif;">ToDo List</h>
+    </header>
+    <div class = "middle">
+        <h style = "font-size: 30px;position: relative;left: 300px;top:100px;font-family:sans-serif;">♡ToDo List♡</h>
+        <input class = "listinput" placeholder = "New Task" type = "text">
+        <button onclick="addElements()" class = "add"><h>Add♡</h></button>
+        <ul class = "list">
+        </ul>
+    </div>
+    <script src="my.js"></script>
+</body>
+</html>
