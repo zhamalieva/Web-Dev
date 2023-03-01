@@ -1,0 +1,20 @@
+
+<h2>Product Details</h2>
+
+
+
+<div *ngIf="product">
+  <img style = "position: relative;margin: 5vw;float: right;max-width: 200px;" src = "{{product.linkImage}}">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+  <button type="button" (click)="addToCart(product)">Buy</button>
+  <button type="button " (click)="like(product)">Like {{product.like}}</button>
+  <button type="button" (click)="delete(product.id)">Delete</button>
+</div>
+<!-- 
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+</div> -->

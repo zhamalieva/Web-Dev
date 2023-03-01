@@ -1,0 +1,15 @@
+<h2>Products</h2>
+
+<div  class="categories" *ngFor="let category of categories" style = "margin: 5vw;padding: 5vw;background-image: url('{{category.linkImage}}');background-size: cover;">
+
+
+
+  <h3 style = "font-size: 30px;position: relative;top:190px; left:-65px;">
+    <a [title]="category.name" 
+      [routerLink]="['/category']" 
+      (click) = "changeVal(category.name)">
+      {{ category.name }}
+    </a>
+  </h3>
+
+</div>
