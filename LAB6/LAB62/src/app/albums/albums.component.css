@@ -1,0 +1,64 @@
+
+.newAlbumInput{
+    top: 5vw;
+    position: absolute;
+    font-size: 20px;
+    position: relative;
+    border-radius: 6px;
+    width: 30vw;
+    height: 3vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(39, 99, 251);
+    left: 34vw;
+    /* display: flex;
+    align-content: center; */
+
+}
+
+.add{
+    position: absolute;
+    left:61vw;
+    top:6.5vw;
+    background-color:rgb(83, 131, 255);
+    border-radius: 5px;
+    border: none;
+    width: 3vw;
+}
+.add:hover{
+    cursor: pointer;
+}
+
+.albums{
+    list-style: none;
+    position: relative;
+    top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(0, 100px);
+}
+
+.albumBox{
+    background-color: rgb(184, 204, 255);
+    margin-top: 3vw;
+    padding-top: 1vw;
+    width: 25vw;
+    padding: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 178, 253);
+    height: 5vw;
+}
+
+.delete{
+    width: 50px;
+    font-size: 30px;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    
+}
+.delete:hover{
+    background-color: rgb(255, 72, 72);
+}

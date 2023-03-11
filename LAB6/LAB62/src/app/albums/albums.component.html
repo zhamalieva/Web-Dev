@@ -1,0 +1,23 @@
+
+<input class = "newAlbumInput" type="text" [(ngModel)]="newAlbum.title" placeholder="Add a title of new album..."><br/>
+<button class = "add" (click)="addAlbum()">+</button>
+
+
+
+<ul class = "albums" *ngIf="loaded">
+    <li *ngFor = "let album of albums">
+        
+            <a style = "text-decoration: none;color: rgb(86, 86, 86);;"routerLink="/albums/{{album.id}}">
+                <fieldset class = "albumBox">
+                    {{album.title}}
+                    <br>
+                </fieldset>
+            </a>
+            <button class = "delete" (click)="deleteAlbum(album.id)">🗑</button>
+    </li>
+    
+    <br>
+</ul>
+
+
+

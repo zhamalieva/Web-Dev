@@ -1,0 +1,46 @@
+.back{
+    width: 10vw;
+    height: 3vw;
+    border-radius: 5px;border: none;background-color: rgb(155, 184, 255);
+}
+
+.update{
+    position: relative;
+    top: 1vw;
+    width: 5vw;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 50px;
+}
+
+.update:hover{
+    cursor: pointer;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.albumDetail{
+    background-color: rgb(184, 204, 255);
+    position: relative;
+    /* display: flex; */
+    place-content: center;
+    left: 25vw;
+    height: 26vw;
+    width: 46vw;
+    top:2vw;
+    padding: 1vw;
+    border-radius: 5px;
+    border: 1px solid rgb(155, 184, 255);;
+    padding-top: 2vw;
+}
+.newTitle{
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 2vw;
+    
+
+}
